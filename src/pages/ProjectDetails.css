@@ -1,0 +1,76 @@
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+}
+
+.back-link:hover {
+  color: var(--teal);
+}
+
+.pd-head {
+  max-width: 680px;
+  margin-bottom: 48px;
+}
+
+.pd-tagline {
+  font-size: 1.05rem;
+  margin: 14px 0 18px;
+}
+
+.pd-image {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--surface);
+  margin-bottom: 40px;
+}
+
+.pd-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pd-image__placeholder {
+  display: none;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  text-align: center;
+  padding: 20px;
+}
+
+.pd-body {
+  max-width: 720px;
+}
+
+.pd-points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pd-points li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.pd-points li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--teal);
+}

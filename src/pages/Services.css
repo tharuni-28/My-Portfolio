@@ -1,0 +1,24 @@
+.service-card__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--teal-dim);
+  color: var(--teal);
+  margin-bottom: 16px;
+}
+
+.services-cta {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line-soft);
+  text-align: center;
+}
+
+.services-cta p {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+  color: var(--text);
+}

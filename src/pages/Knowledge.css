@@ -1,0 +1,50 @@
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 24px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.exp-item:last-child {
+  border-bottom: none;
+}
+
+.exp-item__company {
+  color: var(--teal);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.cert-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cert-list li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--text);
+}
+
+.cert-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--amber);
+}
+
+@media (max-width: 600px) {
+  .exp-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
