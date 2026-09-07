@@ -1,4 +1,4 @@
-my-portfolio-one-liart-26.vercel.app-Here is the live deployment link for this Portfolio
+
 
 # Tharunika P — Portfolio
 
