@@ -1,3 +1,5 @@
+my-portfolio-one-liart-26.vercel.app-Here is the live deployment link for this Portfolio
+
 # Tharunika P — Portfolio
 
 A React + Vite personal portfolio built from your resume.
@@ -96,3 +98,4 @@ Open `src/data/resumeData.js` and add a new object to the `projects` array:
 
 It will automatically appear on the Projects page and get its own detail
 page at `/projects/your-project-slug`.
+
