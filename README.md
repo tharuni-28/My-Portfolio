@@ -66,15 +66,15 @@ public/
    - `npm install @emailjs/browser`
    - In `src/pages/Contact.jsx`, follow the `TODO` comment inside
      `handleSubmit` — uncomment/adapt the emailjs.send(emailjs.send(
-  "service_8ayydwj",
-  "template_4c2t2pg",
+  "service_XXXXXX",
+  "template_XXXXX",
   {
     name: form.name,
     email: form.email,
     subject: form.subject,
     message: form.message,
   },
-  "MpwV86gGNZKXL6coG"
+  "XXXXXXXX"
 );) call with your
      own Service ID, Template ID, and Public Key.
 
@@ -98,4 +98,5 @@ Open `src/data/resumeData.js` and add a new object to the `projects` array:
 
 It will automatically appear on the Projects page and get its own detail
 page at `/projects/your-project-slug`.
+
 
